@@ -13,7 +13,7 @@ int main(void)
 
 	Tn = t1 + t2;
 
-	while (Tn < 40000000)
+	while (Tn < 4000000)
 	{
 		t1 = t2;
 		t2 = Tn;
