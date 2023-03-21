@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	}
 	while (i < 5 && change >= 0)
 	{
-		while(change >= coins[i])
+		while (change >= coins[i])
 		{
 			n++;
 			change -= coins[i];
